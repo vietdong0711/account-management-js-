@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <br />
+      <form action="" method="POST" role="form">
+        <legend>Login</legend>
+
+        <div class="form-group">
+          <label for="">Username</label>
+          <input type="text" class="form-control" id="usename" placeholder="Input field" />
+        </div>
+
+        <div class="form-group">
+          <label for="">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Input field" />
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="handleLogin()">Login</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
+        <button type="button" class="btn btn-success" onclick="handleRegister()">Register</button>
+      </form>
+    </div>
+  </body>
+  <script type="text/javascript" src="Lab7.js"></script>
+</html>
